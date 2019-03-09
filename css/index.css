@@ -62,6 +62,42 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* CSS sprint challenge below */
+
+.nav {
+    display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nav-link {
+	margin-right: 60px;
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+.lambda-black {
+    width: 100px;
+    height: 80px;
+    display: center;
+}
+
+.nav-link-about {
+	margin-right: 60px;
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+.nav-about {
+    display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -143,4 +179,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content-about .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.middle-content-strategy .about-strategy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    align-content: flex-start;
+}
+
+.middle-content-how-we-work .about-how-we-work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.middle-content-places-we-work .about-places-we-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.middle-content-collaboration .about-collaboration {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.middle-content-lets-work-together {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
